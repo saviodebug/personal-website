@@ -57,7 +57,7 @@
     const headerEl = document.querySelector('header');
     // Use a slightly larger threshold but smoother response
     function onScroll(){
-      if(window.innerWidth > 820) return;
+      
       const y = window.scrollY || 0;
       const navEl = document.querySelector('.nav.offcanvas-nav');
       const navOpen = navEl && navEl.classList.contains('open');
